@@ -1,17 +1,28 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
-  "version": "0.0.0",
-  "title": "CHANGE_ME",
-  "description": "CHANGE_ME",
+  "vendor": "ecomsultores",
+  "name": "price-without-tax",
+  "version": "1.0.3",
+  "title": "Precio sin impuestos",
+  "description": "Componente para mostrar el precio sin impuestos nacionales en productos",
   "builders": {
     "react": "3.x",
+    "store": "0.x",
     "messages": "1.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "styles": "2.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.product-context": "0.x",
+    "vtex.product-summary-context": "0.x",
+    "vtex.css-handles": "1.x",
+    "vtex.product-price": "1.x",
+    "vtex.format-currency": "0.x"
+  },
+  "css": [
+    "ecomsultores.price-without-tax.css"
+  ],
   "registries": [
-    "smartcheckout"
+    "vtex"
   ],
   "policies": [],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
