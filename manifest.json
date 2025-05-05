@@ -1,7 +1,7 @@
 {
   "vendor": "ecomsultores",
   "name": "price-without-tax",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "title": "Precio sin impuestos",
   "description": "Componente para mostrar el precio sin impuestos nacionales en productos",
   "builders": {
