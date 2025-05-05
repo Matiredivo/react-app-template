@@ -1,5 +1,5 @@
 {
-  "vendor": "colfacorarg",
+  "vendor": "tekielar",
   "name": "price-without-tax",
   "version": "4.0.0",
   "title": "Precio sin impuestos",
@@ -19,7 +19,7 @@
     "vtex.format-currency": "0.x"
   },
   "css": [
-    "colfacorarg.price-without-tax.css"
+    "tekielar.price-without-tax.css"
   ],
   "registries": [
     "vtex"
